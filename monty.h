@@ -60,7 +60,6 @@ typedef struct list_s
 extern list_t *list_opcode;
 
 /* Prototype Functions */
-
 int get_file(char *str);
 void check_file(char *str);
 list_t *create_instruction(list_t **head, char *str, int n, FILE *fp);
